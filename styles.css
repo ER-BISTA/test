@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #ffcccb); /* Attractive gradient background */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.tree {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.node {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.node:hover {
+    background-color: #45a049;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.bio {
+    font-size: 14px;
+    color: #555;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.node text {
+    font-weight: bold;
+    font-size: 16px;
+    fill: #333; /* Make the text dark for better visibility */
+}
+
+/* Add styles for the details section */
+#family-details {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 30px auto;
+}
+
+#family-details h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+#family-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+#family-details img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.node text {
+    font-weight: bold;
+    font-size: 18px; /* Increased font size for better visibility */
+    fill: black; /* Changed text color to black */
+    text-anchor: middle; /* Centered the text */
+}
